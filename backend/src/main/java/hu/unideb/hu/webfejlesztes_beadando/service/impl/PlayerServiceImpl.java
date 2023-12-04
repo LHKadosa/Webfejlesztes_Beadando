@@ -20,7 +20,7 @@ public class PlayerServiceImpl implements PlayerService {
 
     @Override
     public PlayerDTO create(PlayerDTO playerDTO){
-        Player player = new Player(playerDTO.ID(), playerDTO.username(), playerDTO.password(), playerDTO.health(),playerDTO.experience());
+        Player player = new Player(playerDTO.ID(), playerDTO.username(), playerDTO.password(), playerDTO.health(),playerDTO.experience(), new ArrayList<>());
         player = playerRespository.save(player);
         return new PlayerDTO(player.getID(), player.getUsername(), player.getPassword(), player.getHealth(), player.getExperience());
     }
@@ -34,7 +34,7 @@ public class PlayerServiceImpl implements PlayerService {
 
     @Override
     public PlayerDTO update(PlayerDTO playerDTO){
-        Player player = new Player(playerDTO.ID(), playerDTO.username(),playerDTO.password(), playerDTO.health(),playerDTO.experience());
+        Player player = new Player(playerDTO.ID(), playerDTO.username(),playerDTO.password(), playerDTO.health(),playerDTO.experience(), new ArrayList<>());
         player = playerRespository.save(player);
         return new PlayerDTO(player.getID(), player.getUsername(), player.getPassword(), player.getHealth(),player.getExperience());
     }

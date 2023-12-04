@@ -8,12 +8,13 @@ import java.util.List;
 @Table(name = "PLAYERS")
 public class Player implements Serializable {
 
-    public Player(Long ID, String username, String password, int health, int experience){
+    public Player(Long ID, String username, String password, int health, int experience, List<Item> items){
         this.ID = ID;
         this.username = username;
         this.password = password;
         this.health = health;
         this.experience = experience;
+        this.items = items;
     }
 
     @Id
@@ -32,6 +33,9 @@ public class Player implements Serializable {
 
     @Column(name = "EXPERIENCE")
     private int experience;
+
+    @OneToMany(mappedBy = "player")
+    private List<Item> items;
 
     public Player(){
 
@@ -76,5 +80,13 @@ public class Player implements Serializable {
 
     public void setExperience(int experience) {
         this.experience = experience;
+    }
+
+    public List<Item> getItems() {
+        return items;
+    }
+
+    public void setItems(List<Item> items) {
+        this.items = items;
     }
 }

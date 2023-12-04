@@ -23,23 +23,23 @@ public class ItemServiceImpl implements ItemService {
 
     @Override
     public ItemDTO create(ItemDTO itemDTO){
-        Item item = new Item(itemDTO.ID(), itemDTO.name(),itemDTO.type(),itemDTO.ability());
+        Item item = new Item(itemDTO.ID(), itemDTO.name(),itemDTO.type(),itemDTO.ability(), playerRepository.getReferenceById(itemDTO.playerId()));
         item = itemRepository.save(item);
-        return new ItemDTO(item.getID(),item.getName(),item.getType(),item.getAbility());
+        return new ItemDTO(item.getID(),item.getName(),item.getType(),item.getAbility(), item.getPlayerDto().getID());
     }
 
     @Override
     public List<ItemDTO> readAll(){
         return itemRepository.findAll().stream().map((Item item) ->{
-            return new ItemDTO(item.getID(),item.getName(), item.getType(), item.getAbility());
+            return new ItemDTO(item.getID(),item.getName(), item.getType(), item.getAbility(), item.getPlayerDto().getID());
         }).toList();
     }
 
     @Override
     public ItemDTO update(ItemDTO itemDTO){
-        Item item = new Item(itemDTO.ID(), itemDTO.name(), itemDTO.type(), itemDTO.ability());
+        Item item = new Item(itemDTO.ID(), itemDTO.name(), itemDTO.type(), itemDTO.ability(), playerRepository.getReferenceById(itemDTO.playerId()));
         item = itemRepository.save(item);
-        return new ItemDTO(item.getID(),item.getName(),item.getType(),item.getAbility());
+        return new ItemDTO(item.getID(),item.getName(),item.getType(),item.getAbility(), item.getPlayerDto().getID());
     }
 
     @Override

@@ -21,15 +21,20 @@ public class Item implements Serializable {
     @Column(name = "ABILITY")
     private String ability;
 
+    @ManyToOne
+    @JoinColumn(name = "PLAYER")
+    private Player player;
+
     public Item(){
 
     }
 
-    public Item(Long ID, String name, String type, String ability){
+    public Item(Long ID, String name, String type, String ability, Player player){
         this.ID = ID;
         this.name = name;
         this.type = type;
         this.ability = ability;
+        this.player = player;
     }
 
     public Long getID() {
@@ -62,5 +67,13 @@ public class Item implements Serializable {
 
     public void setAbility(String ability) {
         this.ability = ability;
+    }
+
+    public Player getPlayerDto() {
+        return player;
+    }
+
+    public void setPlayerDto(Player player) {
+        this.player = player;
     }
 }
