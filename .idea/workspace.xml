@@ -4,14 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13967fb3-e377-4b3a-89c8-d06cd9c7bd3c" name="Changes" comment="Add React Frontend">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="13967fb3-e377-4b3a-89c8-d06cd9c7bd3c" name="Changes" comment="Changes in some XML files">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/hu/unideb/hu/webfejlesztes_beadando/Webfejlesztes_BeadandoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/hu/unideb/hu/webfejlesztes_beadando/controller/PlayerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/hu/unideb/hu/webfejlesztes_beadando/dto/PlayerDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/hu/unideb/hu/webfejlesztes_beadando/entity/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/hu/unideb/hu/webfejlesztes_beadando/repository/PlayerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/hu/unideb/hu/webfejlesztes_beadando/service/PlayerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/hu/unideb/hu/webfejlesztes_beadando/service/impl/PlayerServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/org/example/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,6 +66,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="hu.unideb.hu.webfejlesztes_beadando.service.impl" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Kadosa\IdeaProjects\Webfejlesztes_Beadando\frontend" />
       <recent name="C:\Users\Kadosa\IdeaProjects\Webfejlesztes_Beadando\backend\.mvn\wrapper" />
@@ -58,6 +78,9 @@
       <recent name="C:\Users\Kadosa\IdeaProjects\Webfejlesztes_Beadando\backend\src\main\resources" />
       <recent name="C:\Users\Kadosa\IdeaProjects\Webfejlesztes_Beadando\backend\.mvn\wrapper" />
       <recent name="C:\Users\Kadosa\IdeaProjects\Webfejlesztes_Beadando\backend" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="hu.unideb.hu.webfejlesztes_beadando.service" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -83,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701640500114</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changes in some XML files">
+      <created>1701705533935</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701705533935</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,6 +130,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Maven Wrapper backend" />
     <MESSAGE value="Add React Frontend" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add React Frontend" />
+    <MESSAGE value="Changes in some XML files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes in some XML files" />
   </component>
 </project>
