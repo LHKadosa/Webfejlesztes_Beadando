@@ -4,23 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13967fb3-e377-4b3a-89c8-d06cd9c7bd3c" name="Changes" comment="Tables connected">
-      <change afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/controller/PlayerController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/controller/baseUrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/setupTests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/view/PlayerView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/view/crud.css" afterDir="false" />
+    <list default="true" id="13967fb3-e377-4b3a-89c8-d06cd9c7bd3c" name="Changes" comment="Add Player page">
+      <change afterPath="$PROJECT_DIR$/frontend/src/controller/ItemController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/view/ItemView.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/0.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/index.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/controller/PlayerController.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/controller/PlayerController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/view/PlayerView.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/view/PlayerView.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +136,21 @@
       <option name="project" value="LOCAL" />
       <updated>1701717414872</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="React base files added">
+      <created>1701886570120</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701886570120</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add Player page">
+      <created>1701886592405</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1701886592405</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,6 +171,8 @@
     <MESSAGE value="Add Player" />
     <MESSAGE value="Add Item" />
     <MESSAGE value="Tables connected" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tables connected" />
+    <MESSAGE value="React base files added" />
+    <MESSAGE value="Add Player page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Player page" />
   </component>
 </project>
