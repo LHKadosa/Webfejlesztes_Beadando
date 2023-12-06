@@ -19,7 +19,7 @@ export class PlayerController {
     }
 
     static async deletePlayer(playerDTO){
-        const output = await axios.delete(`${baseUrl}/players/deletePlayer)`, { data: playerDTO})
+        const output = await axios.delete(`${baseUrl}/players/deletePlayer`, { data: playerDTO})
         return output.data
     }
 }

@@ -68,6 +68,7 @@ export function PlayerView(){
                     submitText="Delete"
                 />
             </CRUDTable>
+            <Link to="/items">Go to Items page</Link>
         </div>
 
     );
