@@ -4,13 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13967fb3-e377-4b3a-89c8-d06cd9c7bd3c" name="Changes" comment="Add Item">
+    <list default="true" id="13967fb3-e377-4b3a-89c8-d06cd9c7bd3c" name="Changes" comment="Tables connected">
+      <change afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/controller/PlayerController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/controller/baseUrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/view/PlayerView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/view/crud.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/hu/unideb/hu/webfejlesztes_beadando/dto/ItemDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/hu/unideb/hu/webfejlesztes_beadando/dto/ItemDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/hu/unideb/hu/webfejlesztes_beadando/entity/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/hu/unideb/hu/webfejlesztes_beadando/entity/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/hu/unideb/hu/webfejlesztes_beadando/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/hu/unideb/hu/webfejlesztes_beadando/entity/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/hu/unideb/hu/webfejlesztes_beadando/service/impl/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/hu/unideb/hu/webfejlesztes_beadando/service/impl/ItemServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/hu/unideb/hu/webfejlesztes_beadando/service/impl/PlayerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/hu/unideb/hu/webfejlesztes_beadando/service/impl/PlayerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/0.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.cache/default-development/index.pack" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,32 +55,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kadosa/IdeaProjects/Webfejlesztes_Beadando/frontend&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "last_opened_file_path": "C:/Users/Kadosa/IdeaProjects/Webfejlesztes_Beadando/frontend/src"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;Properties&quot;,
-      &quot;TEXT&quot;,
-      &quot;Shell Script&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JavaScript",
+      "Properties",
+      "TEXT",
+      "Shell Script"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="hu.unideb.hu.webfejlesztes_beadando.service.impl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kadosa\IdeaProjects\Webfejlesztes_Beadando\frontend\src" />
       <recent name="C:\Users\Kadosa\IdeaProjects\Webfejlesztes_Beadando\frontend" />
       <recent name="C:\Users\Kadosa\IdeaProjects\Webfejlesztes_Beadando\backend\.mvn\wrapper" />
       <recent name="C:\Users\Kadosa\IdeaProjects\Webfejlesztes_Beadando\backend" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kadosa\IdeaProjects\Webfejlesztes_Beadando\frontend\src\controller" />
       <recent name="C:\Users\Kadosa\IdeaProjects\Webfejlesztes_Beadando\backend\src\main\resources" />
       <recent name="C:\Users\Kadosa\IdeaProjects\Webfejlesztes_Beadando\backend\.mvn\wrapper" />
       <recent name="C:\Users\Kadosa\IdeaProjects\Webfejlesztes_Beadando\backend" />
@@ -123,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701716540482</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Tables connected">
+      <created>1701717414872</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701717414872</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,6 +163,7 @@
     <MESSAGE value="Changes in some XML files" />
     <MESSAGE value="Add Player" />
     <MESSAGE value="Add Item" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Item" />
+    <MESSAGE value="Tables connected" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tables connected" />
   </component>
 </project>
